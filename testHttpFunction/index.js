@@ -1,5 +1,5 @@
 const functions = require('@google-cloud/functions-framework');
 
 functions.http('helloHttp', (req, res) => {
-  res.send(`Hello there ${req.query.name || req.body.name || 'World'}!`);
+  res.send(`Hello there ${req.query.name || req.body.name || 'World'}! I hope you are doing well!!`);
 });
