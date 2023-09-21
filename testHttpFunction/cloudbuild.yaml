@@ -5,7 +5,7 @@ steps:
   - functions
   - deploy
   - test-build-trigger
-  - --region=us-central1
+  - --region=northamerica-northeast1
   - --source=./testHttpFunction/
   - --entry-point=helloWorld
   - --trigger-http
