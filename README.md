@@ -1,1 +1,1 @@
-A repo of cloud functions that help automate stuff
+A repo of cloud functions that help automate stuff and make lives better.
