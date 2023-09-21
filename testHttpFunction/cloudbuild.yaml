@@ -7,5 +7,6 @@ steps:
   - test-build-trigger
   - --region=us-central1
   - --source=./testHttpFunction/
+  - --entry-point=helloWorld
   - --trigger-http
   - --runtime=nodejs18
