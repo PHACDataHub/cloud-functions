@@ -6,6 +6,6 @@ steps:
   - deploy
   - test-build-trigger
   - --region=us-central1
-  - --source=.
+  - --source=./testHttpFunction/
   - --trigger-http
   - --runtime=nodejs18
