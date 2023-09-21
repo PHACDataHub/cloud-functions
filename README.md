@@ -1,1 +1,1 @@
-Repository to hold functions
+A repo of cloud functions that help automate stuff
