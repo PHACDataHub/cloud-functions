@@ -25,7 +25,6 @@ function loadSlackChannelandWebClient(){
         secret = JSON.parse(version.payload.data.toString('utf8'));
         let {slack_bot_token, channelId} = secret;
         SLACK_WEB_CLIENT =new WebClient(slack_bot_token, {
-            // LogLevel can be imported and used to make debugging simpler
             logLevel: LogLevel.DEBUG
         });
         CHANNEL_ID = channelId;
