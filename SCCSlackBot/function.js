@@ -11,6 +11,7 @@ const request = {
   name : "projects/332560742969/secrets/slack-bot-api-token/versions/4"
 };
 
+// Function to access secret
 function loadSlackChannelandWebClient(){
   return new Promise((resolve,reject)=>{
     if(SLACK_WEB_CLIENT !== null && CHANNEL_ID !== null){
